@@ -13,6 +13,7 @@ This is a sample **Rust** project using **Actix-Web**, designed to demonstrate a
 
 2. **Create the Workspace**:  
    Use Daytona to create a new workspace from this repository:  
+
    ```bash  
    daytona create https://github.com/ArnavK-09/sample-rust-actix
   ```
