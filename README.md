@@ -76,7 +76,7 @@ Seamless integration with Daytona for quick workspace setup and deployment.
 
 ├── src/
 │   ├── main.rs       # Entry point for the application
-├── static/       # Folder containing static files (e.g., 404.html)
+├── static/           # Folder containing static files 
 ├── .devcontainer/    # Pre-configured devcontainer setup
 ├── Cargo.toml        # Project dependencies
 ├── README.md         # Project documentation
