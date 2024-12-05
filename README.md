@@ -14,20 +14,25 @@ This is a sample **Rust** project using **Actix-Web**, designed to demonstrate a
 2. **Create the Workspace**:  
    Use Daytona to create a new workspace from this repository:  
    ```bash  
-   daytona create <SAMPLE_REPO_URL>
+   daytona create https://github.com/ArnavK-09/sample-rust-actix
+  ```
 
-3. Set Up Dependencies:
+3. Configured Dependencies:
 Once inside the Daytona workspace, dependencies like Rust and Actix-Web will be pre-configured using the provided devcontainer. To manually verify dependencies, ensure you have Rust installed:
 
+```bash
 rustup show
+```
 
 
 4. Start the Application:
-Run the following command to build and launch the Actix-Web server:
+The following command to build and launch the Actix-Web server would run on project creation:
 
+```bash
 cargo run
+```
 
-The server will start on http://127.0.0.1:8080.
+**The server will start on http://127.0.0.1:8080**
 
 
 
