@@ -83,13 +83,13 @@ Seamless integration with Daytona for quick workspace setup and deployment.
 
 ---
 
-📖 Learn More
+### 📖 Learn More
 
-Actix-Web Documentation: https://actix.rs/
+- Actix-Web Documentation: https://actix.rs/
 
-Rust Programming Language: https://www.rust-lang.org/
+- Rust Programming Language: https://www.rust-lang.org/
 
-Daytona Workspaces: https://www.daytona.io/
+- Daytona Workspaces: https://www.daytona.io/
 
 
 
