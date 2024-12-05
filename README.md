@@ -16,7 +16,7 @@ This is a sample **Rust** project using **Actix-Web**, designed to demonstrate a
 
    ```bash  
    daytona create https://github.com/ArnavK-09/sample-rust-actix
-  ```
+  
 
 3. Configured Dependencies:
 Once inside the Daytona workspace, dependencies like Rust and Actix-Web will be pre-configured using the provided devcontainer. To manually verify dependencies, ensure you have Rust installed:
