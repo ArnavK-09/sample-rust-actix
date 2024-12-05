@@ -69,7 +69,9 @@ Seamless integration with Daytona for quick workspace setup and deployment.
 
 ---
 
-🛠️ Project Structure
+## 🛠️ Project Structure
+
+```
 
 ├── src/
 │   ├── main.rs       # Entry point for the application
@@ -77,7 +79,7 @@ Seamless integration with Daytona for quick workspace setup and deployment.
 ├── .devcontainer/    # Pre-configured devcontainer setup
 ├── Cargo.toml        # Project dependencies
 ├── README.md         # Project documentation
-
+```
 
 ---
 
