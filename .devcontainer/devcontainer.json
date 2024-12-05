@@ -28,10 +28,10 @@
 	"forwardPorts": [
 		8080
 	],
-        "portsAttributes": {
+	"portsAttributes": {
                "8080": {
                      "label": "Rust-Actix Server!",
                      "onAutoForward": "openPreview"
-               } 
-       }
+               }
+	}
 }
