@@ -34,7 +34,7 @@ The following command to build and launch the Actix-Web server would run on proj
    cargo run
    ```
 
-5. **The server will start on http://127.0.0.1:8080**
+5. **The server will start on http://127.0.0.1:8080 or http://localhost:8080**
 
 
 
