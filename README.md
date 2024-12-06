@@ -43,26 +43,26 @@ The following command to build and launch the Actix-Web server would run on proj
 
 ## ✨ Features
 
-1. Custom Routing
+#### 1. Custom Routing
 
 - A default / route that responds with "Hello world!"
 
 - A /repeat POST route that echoes the request body back to the client.
 
 
-2. Custom 404 Page
+### 2. Custom 404 Page
 
 - Handles all unknown routes and serves a custom 404.html page to enhance user experience.
 
 
-3. Standardized Development Environment
+### 3. Standardized Development Environment
 
 - Integrated Dev Containers (devcontainer.json) for consistent development setups across machines.
 
 - Pre-configured Visual Studio Code extensions for enhanced productivity.
 
 
-4. Built for Daytona
+### 4. Built for Daytona
 
 - Seamless integration with Daytona for quick workspace setup and deployment.
 
