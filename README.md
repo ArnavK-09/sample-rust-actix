@@ -43,7 +43,7 @@ The following command to build and launch the Actix-Web server would run on proj
 
 ## ✨ Features
 
-#### 1. Custom Routing
+### 1. Custom Routing
 
 - A default / route that responds with "Hello world!"
 
