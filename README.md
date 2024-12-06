@@ -19,7 +19,7 @@ This is a sample **Rust** project using **Actix-Web**, designed to demonstrate a
    ```
   
 
-3. Configured Dependencies:
+3. **Configured Dependencies**:
 Once inside the Daytona workspace, dependencies like Rust and Actix-Web will be pre-configured using the provided devcontainer. To manually verify dependencies, ensure you have Rust installed:
 
    ```bash
@@ -27,14 +27,14 @@ Once inside the Daytona workspace, dependencies like Rust and Actix-Web will be 
    ```
 
 
-4. Start the Application:
+4. **Start the Application**:
 The following command to build and launch the Actix-Web server would run on project creation:
 
    ```bash
    cargo run
    ```
 
-**The server will start on http://127.0.0.1:8080**
+5. **The server will start on http://127.0.0.1:8080**
 
 
 
