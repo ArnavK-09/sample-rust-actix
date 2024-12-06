@@ -73,7 +73,6 @@ The following command to build and launch the Actix-Web server would run on proj
 ## 🛠️ Project Structure
 
 ```
-
 ├── src/
 │   ├── main.rs       # Entry point for the application
 ├── static/           # Folder containing static files 
