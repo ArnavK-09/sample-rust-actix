@@ -1,4 +1,4 @@
-# Sample <Rust/Actix-Web>
+# Sample Rust/Actix-Web
 
 This is a sample **Rust** project using **Actix-Web**, designed to demonstrate a simple and scalable backend web framework. This project showcases features like routing, custom 404 handling, and responsive development environments, making it an excellent starting point for web development using Actix-Web.
 
