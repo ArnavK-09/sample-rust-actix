@@ -37,8 +37,8 @@ async fn main() -> std::io::Result<()> {
             // Register a default service to handle all unrecognized routes (404 Not Found)
             .default_service(web::route().to(not_found)) // Calls `not_found` for unmatched routes
     })
-    // Bind the server to the IP address `127.0.0.1` and port `6969`
-    .bind(("127.0.0.1", 6969))?
+    // Bind the server to available port
+    .bind(("0.0.0.0:0"))?
     // Start the server and await the result
     .run()
     .await
