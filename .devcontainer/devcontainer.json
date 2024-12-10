@@ -23,15 +23,5 @@
 		}
 	},
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "cargo run",
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [
-		6969
-	],
-	"portsAttributes": {
-               "6969": {
-                     "label": "Rust-Actix Server!",
-                     "onAutoForward": "openPreview"
-               }
-	}
+	"postCreateCommand": "cargo run"
 }
