@@ -1,5 +1,5 @@
 // Importing necessary modules from Actix Web
-use actix_web::{get, post, web, App, HttpResponse, HttpServer, Responder};
+use actix_web::{ get, post, web, App, HttpResponse, HttpServer, Responder};
 
 // The `hello` route handler for GET requests to the root URL ("/")
 #[get("/")]
@@ -27,7 +27,7 @@ async fn not_found() -> impl Responder {
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
     // Create and configure the Actix Web server
-    HttpServer::new(|| {
+    let server = HttpServer::new(|| {
         // Create a new Actix Web application
         App::new()
             // Register the `hello` route to handle GET requests at the root URL
@@ -37,9 +37,12 @@ async fn main() -> std::io::Result<()> {
             // Register a default service to handle all unrecognized routes (404 Not Found)
             .default_service(web::route().to(not_found)) // Calls `not_found` for unmatched routes
     })
-    // Bind the server to available port
-    .bind(("0.0.0.0:0"))?
+    // Bind the server
+    .bind("0.0.0.0:0")?;
+    // Get the actual address the server is bound to
+  let bound_address = server.addrs().first().unwrap().clone();
+  println!("Server is running on http://{}", bound_address);
     // Start the server and await the result
-    .run()
-    .await
+    server.run().await
+
 }
